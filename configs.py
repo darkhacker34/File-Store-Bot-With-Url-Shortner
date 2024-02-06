@@ -1,15 +1,16 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
+  API_ID = int(os.environ.get("API_ID", "1917094"))
+  API_HASH = os.environ.get("API_HASH", "43dbeb43f27f99752b44db7493bf38ad")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6820349554:AAEQawiu4mbk4nnrt8NOOsobzS40z8nYwck")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "MovieA2Bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001347472363"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shrinkforearn.in")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "921a55f2b9f9247f1025f061cf5d2532ded7f53d")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1107626477"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://24:24@cluster0.cw3bc2z.mongodb.net/?retryWrites=true&w=majority
+  ")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
@@ -32,7 +33,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/)
  
  I am Super noob Please Support My Hard Work.
 
